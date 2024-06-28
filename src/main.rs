@@ -7,7 +7,7 @@ use std::path::{Path, PathBuf};
 use std::io::{Error as IoError, ErrorKind as IoErrorKind, Write};
 
 const HELP: &'static str = "
-Usage: python-su [options] ... 
+Usage: python-su [options] name 
 
 Options:
   -h, --help                Prints this help message
